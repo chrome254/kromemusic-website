@@ -1,4 +1,4 @@
-const SITE_URL='https://producerkrome.com';
+const SITE_URL='https://www.kromemusic.co.ke';
 const $=(s,root=document)=>root.querySelector(s);const $$=(s,root=document)=>[...root.querySelectorAll(s)];
 const esc=s=>String(s||'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const link=(label,url)=>url?`<a class="stream" href="${esc(url)}" target="_blank" rel="noopener">${label} ↗</a>`:`<span class="stream disabled">${label}</span>`;
